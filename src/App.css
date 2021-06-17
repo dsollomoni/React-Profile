@@ -47,6 +47,24 @@
 
 
 #Footer {
+  background-color:lightgray;
   position: absolute;
   bottom: 0px;
+  padding: 10px;
+}
+
+.card {
+  margin: 20px;
+}
+
+
+#formLabel {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
