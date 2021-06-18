@@ -1,5 +1,5 @@
 import './App.css';
-import {Switch, Route, Link, BrowserRouter as Router} from "react-router-dom";
+import {Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import NavBar from "./components/navbar"
 import AboutMe from './pages/about-me';
 import Footer from "./components/footer"
@@ -14,10 +14,10 @@ function App() {
     <Router>
      <NavBar/>
      <Switch>
-       <Route exact path= "/" component= {AboutMe}/>
-       <Route path= "/portfolio" component= {Portfolio}/>
-       <Route path= "/contact" component= {Contact}/>
-       <Route path= "/resume" component= {Resume}/>
+       <Route exact path= "/React-Profile/" component= {AboutMe}/>
+       <Route path= "/React-Profile/portfolio" component= {Portfolio}/>
+       <Route path= "/React-Profile/contact" component= {Contact}/>
+       <Route path= "/React-Profile/resume" component= {Resume}/>
      </Switch>
     </Router>
     <Footer/> 
