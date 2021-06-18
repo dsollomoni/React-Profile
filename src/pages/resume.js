@@ -1,4 +1,6 @@
 import { Container, Media } from "react-bootstrap"
+import ResumeFile from "../assets/resume.pdf"
+
 
 
 function Resume(){
@@ -27,6 +29,9 @@ function Resume(){
                         <li>MongoDB, Mongoose</li>
                     </ul>
                 </Media.Body>
+            </Media>
+            <Media>
+                <p>Download my resume <a href = {ResumeFile} download> Here </a></p>
             </Media>
         </Container>
     )

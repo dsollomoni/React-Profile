@@ -10,7 +10,7 @@ import Resume from './pages/resume'
 
 function App() {
   return (
-    <div id = "App" className = "w-100">
+    <div id = "App" className = "w-100 h-" >
     <Router>
      <NavBar/>
      <Switch>
@@ -19,8 +19,8 @@ function App() {
        <Route path= "/contact" component= {Contact}/>
        <Route path= "/resume" component= {Resume}/>
      </Switch>
-     <Footer/> 
     </Router>
+    <Footer/> 
     </div>
   );
 }
